@@ -46,7 +46,7 @@ function pregunta1() {
   var cj1c = document.getElementById("cj1c").value;
   var cj1d = document.getElementById("cj1d").value;
 
-  if (cj1a == "x" || cj1a == " x" || cj1a == "  x") {
+  if (cj1a == "x" || cj1a == " x" || cj1a == "  x" ||cj1a == "X" || cj1a == " X" || cj1a == "  X") {
     cor = cor + 1;
     $("#cj1a").addClass("correcto");
   } else {
@@ -55,7 +55,7 @@ function pregunta1() {
     $("#cj1a").addClass("incorrecto");
   }
 
-  if (cj1b == "x" || cj1b == " x" || cj1b == "  x") {
+  if (cj1b == "x" || cj1b == " x" || cj1b == "  x"||cj1b == "X" || cj1b == " X" || cj1b == "  X") {
     cor = cor + 1;
     $("#cj1b").addClass("correcto");
   } else {

@@ -89,7 +89,7 @@ document.getElementById("pre5a").addEventListener("keypress", () => {
   validNumero(0, 1, 1);
 });
 document.getElementById("pre5a").addEventListener("keyup", () => {
-  validMaxIngreso(document.getElementById("pre5a"), 1.75);
+  validMaxIngreso(document.getElementById("pre5a"), 1.50);
 });
 
 document.getElementById("pre7a").addEventListener("keypress", () => {
@@ -124,7 +124,7 @@ document.getElementById("pre11a").addEventListener("keypress", () => {
   validNumero(0, 1, 1);
 });
 document.getElementById("pre11a").addEventListener("keyup", () => {
-  validMaxIngreso(document.getElementById("pre11a"), 0.5);
+  validMaxIngreso(document.getElementById("pre11a"), 0.50);
 });
 
 // #region Pregunta1
